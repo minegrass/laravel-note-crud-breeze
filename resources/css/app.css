@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.note-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.note-item{
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.note-item-large{
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.note-btn-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.note-item>textarea{
+    width: 450px;
+    height: 500px;
+    resize: none;
+}
+
+.pop-top-message{
+
+    background-color: blue;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 1000;
+}
